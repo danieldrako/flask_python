@@ -2,7 +2,7 @@ from flask import Flask, request, make_response, redirect, render_template
 
 app = Flask(__name__)
 
-todos = ['TODO1','TODO2','TODO3']
+todos = ['Comprar café','Enviar solicitud','entregar video a productor']
 
 @app.route('/')
 def index():
